@@ -19,7 +19,6 @@
                                 {{str_limit($question->body,250)}}
                             </div>
                         </div>
-                        <hr>
                     @endforeach
                     <div class="text-center">
                     {{$questions->links()}}
